@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ui.hanlim.Hanlim2fFragment">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_start_car_1f_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="15dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_start_car_1f_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="240dp" />
+
+    <ImageView
+        android:id="@+id/image_hanlim2f"
+        android:layout_width="wrap_content"
+        android:layout_height="394dp"
+        android:layout_marginTop="80dp"
+        android:contentDescription="@string/todo"
+        android:scaleType="fitXY"
+        android:src="@drawable/hanlim2fmap"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/text_hanlim2f1"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="①해군기술부사관학과"
+        android:textSize="17sp"
+        app:layout_constraintTop_toBottomOf="@id/image_hanlim2f"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_1"
+        tools:ignore="MissingConstraints"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/text_hongji2f2"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="②운동검사처방실"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_2"
+        app:layout_constraintTop_toBottomOf="@id/image_hanlim2f"
+        tools:ignore="MissingConstraints"
+        />
+
+    <TextView
+        android:id="@+id/text_hanlim2f3"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_marginTop="52dp"
+        android:gravity="center"
+        android:text="③운동처방실"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/image_hanlim2f"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_1"
+        tools:ignore="MissingConstraints"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/text_hanlim2f4"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_marginTop="52dp"
+        android:gravity="center"
+        android:text="④필라테스스튜디오"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_2"
+        app:layout_constraintTop_toBottomOf="@id/image_hanlim2f"
+        tools:ignore="MissingConstraints"
+        />
+
+    <TextView
+        android:id="@+id/text_hanlim2f5"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_marginTop="85dp"
+        android:gravity="center"
+        android:text="⑤상담실1"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/image_hanlim2f"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_1"
+        tools:ignore="MissingConstraints"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/text_hanlim2f6"
+        android:layout_width="137dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="85dp"
+        android:gravity="center"
+        android:text="⑥교수연구실1"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_2"
+        app:layout_constraintTop_toBottomOf="@id/image_hanlim2f"
+        tools:ignore="MissingConstraints"
+        />
+
+
+    <TextView
+        android:id="@+id/text_hanlim2f7"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="120dp"
+        android:gravity="center"
+        android:text="⑦교수연구실2"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/image_hanlim2f"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_1"
+        tools:ignore="MissingConstraints"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/text_hanlim2f8"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginTop="120dp"
+        android:gravity="center"
+        android:text="⑧교수연구실3"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_2"
+        app:layout_constraintTop_toBottomOf="@id/image_hanlim2f"
+        tools:ignore="MissingConstraints"
+        />
+
+    <TextView
+        android:id="@+id/text_hanlim2f9"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginTop="155dp"
+        android:gravity="center"
+        android:text="⑨교수연구실4"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/image_hanlim2f"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_1"
+        tools:ignore="MissingConstraints"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/text_hanlim2f10"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_marginTop="155dp"
+        android:gravity="center"
+        android:text="⑩교수연구실5"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_2"
+        app:layout_constraintTop_toBottomOf="@id/image_hanlim2f"
+        tools:ignore="MissingConstraints"
+        />
+
+    <TextView
+        android:id="@+id/text_hanlim2f11"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="190dp"
+        android:gravity="center"
+        android:text="⑪탈의실(남)"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/image_hanlim2f"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_1"
+        tools:ignore="MissingConstraints"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/text_hanlim2f12"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="190dp"
+        android:gravity="center"
+        android:text="⑫탈의실(여)"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_2"
+        app:layout_constraintTop_toBottomOf="@id/image_hanlim2f"
+        tools:ignore="MissingConstraints"
+        />
+
+    <TextView
+        android:id="@+id/text_hanlim2f13"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_marginTop="225dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="⑬학생교사교육단\n지휘근무자실"
+        android:textSize="17sp"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_1"
+        app:layout_constraintTop_toBottomOf="@id/image_hanlim2f"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text_hanlim2f14"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_marginTop="225dp"
+        android:gravity="center"
+        android:text="⑭기사휴게실"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_2"
+        app:layout_constraintTop_toBottomOf="@id/image_hanlim2f"
+        tools:ignore="MissingConstraints"
+        />
+
+    <TextView
+        android:id="@+id/text_hanlim2f15"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_marginTop="270dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="⑮학생군사교육단교보재실\n교수연구실"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_1"
+        app:layout_constraintTop_toBottomOf="@id/image_hanlim2f"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text_hanlim2f16"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="265dp"
+        android:gravity="center"
+        android:text="⑯강의실3"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_2"
+        app:layout_constraintTop_toBottomOf="@id/image_hanlim2f"
+        tools:ignore="MissingConstraints"
+        />
+
+    <TextView
+        android:id="@+id/text_hanlim2f17"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="320dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="⑰학생군사교육\n단장실"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_1"
+        app:layout_constraintTop_toBottomOf="@id/image_hanlim2f"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text_hanlim2f18"
+        android:layout_width="wrap_content"
+        android:layout_height="62dp"
+        android:layout_marginTop="295dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="⑱학생군사교육단\n훈육관실"
+        android:textSize="17sp"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_2"
+        app:layout_constraintTop_toBottomOf="@id/image_hanlim2f"
+        tools:ignore="MissingConstraints" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

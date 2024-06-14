@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.hongji.Hongji4fFragment">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_start_car_1f_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="27dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_start_car_1f_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="233dp" />
+
+    <ImageView
+        android:id="@+id/image_hongji4f"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:contentDescription="@string/todo"
+        android:scaleType="fitXY"
+        android:src="@drawable/hongji4fmap"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/text_hongji4f1"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginTop="25dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="@string/string_hongji4f_1"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_1"
+        app:layout_constraintTop_toBottomOf="@id/image_hongji4f"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text_hongji4f2"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="@string/string_hongji4f_2"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_2"
+        app:layout_constraintTop_toBottomOf="@id/image_hongji4f"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text_hongji4f3"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:text="@string/string_hongji4f_3"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        app:layout_constraintTop_toBottomOf="@id/image_hongji4f"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="569dp"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/text_hongji4f4"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:text="@string/string_hongji4f_4"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_2"
+        app:layout_constraintTop_toBottomOf="@id/image_hongji4f"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text_hongji4f5"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="110dp"
+        android:gravity="center"
+        android:text="@string/string_hongji4f_5"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        app:layout_constraintTop_toBottomOf="@id/image_hongji4f"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="569dp"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/text_hongji4f6"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_marginTop="110dp"
+        android:gravity="center"
+        android:text="@string/string_hongji4f_6"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_2"
+        app:layout_constraintTop_toBottomOf="@id/image_hongji4f"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text_hongji4f7"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginTop="150dp"
+        android:gravity="center"
+        android:text="@string/string_hongji4f_7"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        app:layout_constraintTop_toBottomOf="@id/image_hongji4f"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="569dp"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/text_hongji4f8"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_marginTop="150dp"
+        android:gravity="center"
+        android:text="@string/string_hongji4f_8"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_2"
+        app:layout_constraintTop_toBottomOf="@id/image_hongji4f"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text_hongji4f9"
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:layout_marginTop="190dp"
+        android:gravity="center"
+        android:text="@string/string_hongji4f_9"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        app:layout_constraintTop_toBottomOf="@id/image_hongji4f"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="569dp"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/text_hongji4f10"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="190dp"
+        android:gravity="center"
+        android:text="@string/string_hongji4f_10"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_2"
+        app:layout_constraintTop_toBottomOf="@id/image_hongji4f"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text_hongji4f11"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginTop="230dp"
+        android:gravity="center"
+        android:text="@string/string_hongji4f_11"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        app:layout_constraintTop_toBottomOf="@id/image_hongji4f"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="569dp"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/text_hongji4f12"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_marginTop="230dp"
+        android:gravity="center"
+        android:text="@string/string_hongji4f_12"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_2"
+        app:layout_constraintTop_toBottomOf="@id/image_hongji4f"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text_hongji4f13"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_marginTop="270dp"
+        android:gravity="center"
+        android:text="@string/string_hongji4f_13"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        app:layout_constraintTop_toBottomOf="@id/image_hongji4f"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="569dp"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/text_hongji4f14"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginTop="270dp"
+        android:gravity="center"
+        android:text="@string/string_hongji4f_14"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_2"
+        app:layout_constraintTop_toBottomOf="@id/image_hongji4f"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text_hongji4f15"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginTop="305dp"
+        android:gravity="center"
+        android:text="@string/string_hongji4f_15"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        app:layout_constraintTop_toBottomOf="@id/image_hongji4f"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="569dp"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/text_hongji4f16"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_marginTop="315dp"
+        android:gravity="center"
+        android:text="@string/string_hongji4f_16"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_2"
+        app:layout_constraintTop_toBottomOf="@id/image_hongji4f"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text_hongji4f17"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_marginTop="345dp"
+        android:gravity="center"
+        android:text="@string/string_hongji4f_17"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        app:layout_constraintTop_toBottomOf="@id/image_hongji4f"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="569dp"
+        android:clickable="true"
+        android:focusable="true" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

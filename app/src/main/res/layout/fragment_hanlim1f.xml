@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ui.hanlim.Hanlim1fFragment">
+
+    <ImageView
+        android:id="@+id/image_hanlim1f"
+        android:layout_width="wrap_content"
+        android:layout_height="406dp"
+        android:layout_marginTop="80dp"
+        android:contentDescription="@string/todo"
+        android:scaleType="fitXY"
+        android:src="@drawable/hanlim1fmap"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="36dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_start_car_1f_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="15dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_start_car_1f_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="192dp" />
+
+    <TextView
+        android:id="@+id/text_hanlim1f1"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="@string/string_hanlim1f_1"
+        android:textSize="17sp"
+        app:layout_constraintTop_toBottomOf="@id/image_hanlim1f"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_1"
+        tools:ignore="MissingConstraints"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/text_hanlim1f2"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="@string/string_hanlim1f_2"
+        android:textSize="17sp"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_2"
+        app:layout_constraintTop_toBottomOf="@id/image_hanlim1f"
+        tools:ignore="MissingConstraints"
+        />
+
+    <TextView
+        android:id="@+id/text_hanlim1f3"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_marginTop="85dp"
+        android:gravity="center"
+        android:text="@string/string_hanlim1f_3"
+        android:textSize="22sp"
+        app:layout_constraintTop_toBottomOf="@id/image_hanlim1f"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_1"
+        tools:ignore="MissingConstraints"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/text_hanlim1f4"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_marginTop="85dp"
+        android:gravity="center"
+        android:text="@string/string_hanlim1f_4"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_2"
+        app:layout_constraintTop_toBottomOf="@id/image_hanlim1f"
+        tools:ignore="MissingConstraints"
+        />
+
+    <TextView
+        android:id="@+id/text_hanlim1f5"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="135dp"
+        android:gravity="center"
+        android:text="@string/string_hanlim1f_5"
+        android:textSize="22sp"
+        app:layout_constraintTop_toBottomOf="@id/image_hanlim1f"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_1"
+        tools:ignore="MissingConstraints"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/text_hanlim1f6"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="135dp"
+        android:gravity="center"
+        android:text="@string/string_hanlim1f_6"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_2"
+        app:layout_constraintTop_toBottomOf="@id/image_hanlim1f"
+        tools:ignore="MissingConstraints"
+        />
+
+    <TextView
+        android:id="@+id/text_hanlim1f7"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="180dp"
+        android:gravity="center"
+        android:text="@string/string_hanlim1f_7"
+        android:textSize="22sp"
+        app:layout_constraintTop_toBottomOf="@id/image_hanlim1f"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_1"
+        tools:ignore="MissingConstraints"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/text_hanlim1f8"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_marginTop="180dp"
+        android:gravity="center"
+        android:text="@string/string_hanlim1f_8"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_2"
+        app:layout_constraintTop_toBottomOf="@id/image_hanlim1f"
+        tools:ignore="MissingConstraints"
+        />
+
+    <TextView
+        android:id="@+id/text_hanlim1f9"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginTop="230dp"
+        android:gravity="center"
+        android:text="@string/string_hanlim1f_9"
+        android:textSize="22sp"
+        app:layout_constraintTop_toBottomOf="@id/image_hanlim1f"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_1"
+        tools:ignore="MissingConstraints"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/text_hanlim1f10"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginTop="220dp"
+        android:gravity="center"
+        android:text="@string/string_hanlim1f_10"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_2"
+        app:layout_constraintTop_toBottomOf="@id/image_hanlim1f"
+        tools:ignore="MissingConstraints"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

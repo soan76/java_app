@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.jungbo.Jungbo2fFragment">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_start_car_1f_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_start_car_1f_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="215dp" />
+
+    <ImageView
+        android:id="@+id/image_jungbo3f"
+        android:layout_width="wrap_content"
+        android:layout_height="283dp"
+        android:layout_marginTop="80dp"
+        android:contentDescription="@string/todo"
+        android:scaleType="fitXY"
+        android:src="@drawable/jungbo3fmap"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/text_jungbo3f1"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="@string/string_jungbo3f_1"
+        android:textSize="17sp"
+        app:layout_constraintTop_toBottomOf="@id/image_jungbo3f"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_1"
+        tools:ignore="MissingConstraints"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/text_jungbo3f2"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="@string/string_jungbo3f_2"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_2"
+        app:layout_constraintTop_toBottomOf="@id/image_jungbo3f"
+        tools:ignore="MissingConstraints"
+        />
+
+    <TextView
+        android:id="@+id/text_jungbo3f3"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_marginTop="75dp"
+        android:gravity="center"
+        android:text="@string/string_jungbo3f_3"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        app:layout_constraintTop_toBottomOf="@id/image_jungbo3f"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_1"
+        tools:ignore="MissingConstraints"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/text_jungbo3f7"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_marginTop="165dp"
+        android:gravity="center"
+        android:text="@string/string_jungbo3f_7"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        app:layout_constraintTop_toBottomOf="@id/image_jungbo3f"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_1"
+        tools:ignore="MissingConstraints"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/text_jungbo3f8"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginTop="165dp"
+        android:gravity="center"
+        android:text="@string/string_jungbo3f_8"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_2"
+        app:layout_constraintTop_toBottomOf="@id/image_jungbo3f"
+        tools:ignore="MissingConstraints"
+        />
+
+    <TextView
+        android:id="@+id/text_jungbo3f5"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_marginTop="120dp"
+        android:gravity="center"
+        android:text="@string/string_jungbo3f_5"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        app:layout_constraintTop_toBottomOf="@id/image_jungbo3f"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_1"
+        tools:ignore="MissingConstraints"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/text_jungbo3f6"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginTop="120dp"
+        android:gravity="center"
+        android:text="@string/string_jungbo3f_6"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_2"
+        app:layout_constraintTop_toBottomOf="@id/image_jungbo3f"
+        tools:ignore="MissingConstraints"
+        />
+
+    <TextView
+        android:id="@+id/text_jungbo3f9"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginTop="210dp"
+        android:gravity="center"
+        android:text="@string/string_jungbo3f_9"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        app:layout_constraintTop_toBottomOf="@id/image_jungbo3f"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_1"
+        tools:ignore="MissingConstraints"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/text_jungbo3f10"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_marginTop="210dp"
+        android:gravity="center"
+        android:text="@string/string_jungbo3f_10"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_2"
+        app:layout_constraintTop_toBottomOf="@id/image_jungbo3f"
+        tools:ignore="MissingConstraints"
+        />
+
+    <TextView
+        android:id="@+id/text_jungbo3f11"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginTop="255dp"
+        android:gravity="center"
+        android:text="@string/string_jungbo3f_11"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        app:layout_constraintTop_toBottomOf="@id/image_jungbo3f"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_1"
+        tools:ignore="MissingConstraints"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/text_jungbo3f13"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginTop="310dp"
+        android:gravity="center"
+        android:text="@string/string_jungbo3f_13"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        app:layout_constraintTop_toBottomOf="@id/image_jungbo3f"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_1"
+        tools:ignore="MissingConstraints"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/text_jungbo3f12"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginTop="255dp"
+        android:gravity="center"
+        android:text="@string/string_jungbo3f_12"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_2"
+        app:layout_constraintTop_toBottomOf="@id/image_jungbo3f"
+        tools:ignore="MissingConstraints"
+        />
+
+    <TextView
+        android:id="@+id/text_jungbo3f4"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginTop="75dp"
+        android:gravity="center"
+        android:text="@string/string_jungbo3f_4"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_2"
+        app:layout_constraintTop_toBottomOf="@id/image_jungbo3f"
+        tools:ignore="MissingConstraints"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

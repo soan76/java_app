@@ -1,0 +1,231 @@
+<resources>
+    <string name="app_name">대림대학교 캠퍼스맵</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">대림대학교 캠퍼스맵</string>
+    <string name="nav_header_subtitle">캠퍼스맵</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_hongji">홍지관</string>
+    <string name="menu_car">자동차관\n</string>
+    <string name="menu_center">대학본부\n</string>
+    <string name="menu_dasan">다산관\n</string>
+    <string name="menu_jungbo">정보통신관</string>
+    <string name="menu_junsan">전산관</string>
+    <string name="menu_limgok">임곡관</string>
+    <string name="menu_saenghwal">생활관\n</string>
+    <string name="menu_hanlim">한림관\n</string>
+    <string name="menu_yulgok">율곡관\n</string>
+    <string name="menu_toegye">퇴계관</string>
+    <string name="menu_student">학생회관\n</string>
+    <string name="menu_sooam">수암관\n</string>
+    <string name="Idx">202030108 김찬규\n202130131 최원재\n202130132 염재현\n202130133 최현기</string>
+    <string name="todo">TODO</string>
+    <string name="car_1f">자동차관1층</string>
+    <string name="car_3f">자동차관3층</string>
+    <string name="car_4f">자동차관4층</string>
+    <string name="car_5f">자동차관5층</string>
+    <string name="car_6f">자동차관6층\n</string>
+    <string name="car_7f">자동차관7층\n</string>
+    <string name="hongji_b1f">홍지관지하1층</string>
+    <string name="hongji_1f">홍지관1층</string>
+    <string name="hongji_2f">홍지관2층</string>
+    <string name="hongji_3f">홍지관3층</string>
+    <string name="hongji_4f">홍지관4층</string>
+    <string name="hongji_5f">홍지관5층</string>
+    <string name="hongji_6f">홍지관6층</string>
+    <string name="hanlim_1f">한림관1층</string>
+    <string name="hanlim_2f">한림관2층</string>
+    <string name="hanlim_3f">한림관3층</string>
+    <string name="hanlim_4f">한림관4층</string>
+    <string name="jungbo_1f">정통관1층</string>
+    <string name="jungbo_2f">정통관2층</string>
+    <string name="jungbo_3f">정통관3층</string>
+    <string name="jungbo_4f">정통관4층</string>
+    <string name="daelimcampus">대림대캠퍼스맵</string>
+    <string name="home">홈\n</string>
+
+    <!--자동차관1층-->
+    <string name="string_car1f_1">①강의실</string>
+    <string name="string_car1f_2">②L0104 강의실</string>
+    <string name="string_car1f_3">③차고</string>
+
+    <!--홍지관B1층-->
+    <string name="string_hongjib1f_1">①대림아트홀 하층</string>
+
+    <!--홍지관1층-->
+    <string name="string_hongji1f_1">①대림아트홀 상층</string>
+    <string name="string_hongji1f_2">②GS편의점</string>
+
+    <!--홍지관2층-->
+    <string name="string_hongji2f_1">①시설안전구매팀</string>
+    <string name="string_hongji2f_2">②항공안전혁신실습실</string>
+    <string name="string_hongji2f_3">③Cafe BluePot</string>
+    <string name="string_hongji2f_4">④비즈니스실</string>
+
+    <!--홍지관3층-->
+    <string name="string_hongji3f_1">①호텔관광과 사무\n관리실</string>
+    <string name="string_hongji3f_2">②상담실</string>
+    <string name="string_hongji3f_3">③호텔객실실습실</string>
+    <string name="string_hongji3f_4">④ACE hall</string>
+    <string name="string_hongji3f_5">⑤T/C실습실</string>
+    <string name="string_hongji3f_6">⑥강의실1</string>
+    <string name="string_hongji3f_7">⑦강의실2</string>
+    <string name="string_hongji3f_8">⑧Meister Station</string>
+    <string name="string_hongji3f_9">⑨교수연구실1</string>
+    <string name="string_hongji3f_10">⑩교수연구실2</string>
+    <string name="string_hongji3f_11">⑪교수연구실3</string>
+    <string name="string_hongji3f_12">⑫교수연구실4</string>
+    <string name="string_hongji3f_13">⑬교수연구실5</string>
+    <string name="string_hongji3f_14">⑭교수연구실6</string>
+
+    <!--홍지관4층-->
+    <string name="string_hongji4f_1">①항공서비스과 사무\n관리실</string>
+    <string name="string_hongji4f_2">②상담실</string>
+    <string name="string_hongji4f_3">③항공안전훈련실습실</string>
+    <string name="string_hongji4f_4">④이미지메이킹실</string>
+    <string name="string_hongji4f_5">⑤English Lounge4</string>
+    <string name="string_hongji4f_6">⑥모형비행객실</string>
+    <string name="string_hongji4f_7">⑦환복실(남)</string>
+    <string name="string_hongji4f_8">⑧환복실(여)</string>
+    <string name="string_hongji4f_9">⑨항공식음료실습실</string>
+    <string name="string_hongji4f_10">⑩어학실습실1</string>
+    <string name="string_hongji4f_11">⑪영어커뮤니케이션</string>
+    <string name="string_hongji4f_12">⑫교수연구실7</string>
+    <string name="string_hongji4f_13">⑬교수연구실8</string>
+    <string name="string_hongji4f_14">⑭교수연구실9</string>
+    <string name="string_hongji4f_15">⑮교수연구실10</string>
+    <string name="string_hongji4f_16">⑯교수연구실11</string>
+    <string name="string_hongji4f_17">⑰교수연구실15</string>
+
+    <!--홍지관5층-->
+    <string name="string_hongji5f_1">①언어치료과 사무\n관리실</string>
+    <string name="string_hongji5f_2">②음성분석실</string>
+    <string name="string_hongji5f_3">③강의실3</string>
+    <string name="string_hongji5f_4">④상담실</string>
+    <string name="string_hongji5f_5">⑤언어치료센터</string>
+    <string name="string_hongji5f_6">⑥English Lounge5</string>
+    <string name="string_hongji5f_7">⑦강의실4</string>
+    <string name="string_hongji5f_8">⑧강의실5</string>
+    <string name="string_hongji5f_9">⑨강의실6</string>
+    <string name="string_hongji5f_10">⑩강의실7</string>
+    <string name="string_hongji5f_11">⑪해양통신실습실</string>
+    <string name="string_hongji5f_12">⑫학생군사교육단\n환복실(여)</string>
+    <string name="string_hongji5f_13">⑬모의유치원</string>
+    <string name="string_hongji5f_14">⑭수업행동분석실</string>
+    <string name="string_hongji5f_15">⑮교수연구실13</string>
+    <string name="string_hongji5f_16">⑯교수연구실14</string>
+    <string name="string_hongji5f_17">⑰교수연구실15</string>
+    <string name="string_hongji5f_18">⑱교수연구실16</string>
+    <string name="string_hongji5f_19">⑲교수연구실17</string>
+
+    <!--홍지관6층-->
+    <string name="string_hongji6f_1">①유아교육과\n아동보육과\n관리실</string>
+    <string name="string_hongji6f_2">②멀티미디어제작실</string>
+    <string name="string_hongji6f_3">③강의실8</string>
+    <string name="string_hongji6f_4">④강의실9</string>
+    <string name="string_hongji6f_5">⑤재료준비\n실습준비실</string>
+    <string name="string_hongji6f_6">⑥강의실10</string>
+    <string name="string_hongji6f_7">⑦공예실</string>
+    <string name="string_hongji6f_8">⑧피아노실</string>
+    <string name="string_hongji6f_9">⑨악기연습실</string>
+    <string name="string_hongji6f_10">⑩창고</string>
+    <string name="string_hongji6f_11">⑪수업행동분석실</string>
+    <string name="string_hongji6f_12">⑫모의유치원2</string>
+    <string name="string_hongji6f_13">⑬교수연구실18</string>
+    <string name="string_hongji6f_14">⑭교수연구실19</string>
+    <string name="string_hongji6f_15">⑮교수연구실20</string>
+    <string name="string_hongji6f_16">⑯교수연구실21</string>
+    <string name="string_hongji6f_17">⑰교수연구실22</string>
+    <string name="string_hongji6f_18">⑱대피소1</string>
+    <string name="string_hongji6f_19">⑲대피소2</string>
+
+    <!--한림관3층-->
+    <string name="string_hanlim1f_1">①스포츠지도과관리실1</string>
+    <string name="string_hanlim1f_2">②스포츠재활학부\n지도,재활과</string>
+    <string name="string_hanlim1f_3">③체력단련실</string>
+    <string name="string_hanlim1f_4">④체력단련장</string>
+    <string name="string_hanlim1f_5">⑤강의실1</string>
+    <string name="string_hanlim1f_6">⑥강의실2</string>
+    <string name="string_hanlim1f_7">⑦운동처방실</string>
+    <string name="string_hanlim1f_8">⑧샤워실(남)</string>
+    <string name="string_hanlim1f_9">⑨샤워실(여)</string>
+    <string name="string_hanlim1f_10">⑩스포츠재활과\n재료준비실</string>
+
+    <!--한림관2층-->
+    <string name="string_hanlim2f_1">①유아교육과\n아동보육과 및 관리실</string>
+    <string name="string_hanlim2f_2">②멀티미디어제작실</string>
+    <string name="string_hanlim2f_3">③강의실8</string>
+    <string name="string_hanlim2f_4">④강의실9</string>
+    <string name="string_hanlim2f_5">⑤재료준비실\n실습준비실</string>
+    <string name="string_hanlim2f_6">⑥강의실10</string>
+    <string name="string_hanlim2f_7">⑦공예실</string>
+    <string name="string_hanlim2f_8">⑧피아노실</string>
+    <string name="string_hanlim2f_9">⑨악기연습실</string>
+    <string name="string_hanlim2f_10">⑩창고</string>
+    <string name="string_hanlim2f_11">⑪수업행동분석실</string>
+    <string name="string_hanlim2f_12">⑫모의유치원2</string>
+    <string name="string_hanlim2f_13">⑬교수연구실18</string>
+    <string name="string_hanlim2f_14">⑭교수연구실19</string>
+    <string name="string_hanlim2f_15">⑮교수연구실20</string>
+    <string name="string_hanlim2f_16">⑯교수연구실21</string>
+    <string name="string_hanlim2f_17">⑰교수연구실22</string>
+    <string name="string_hanlim2f_18">⑱대피소1</string>
+
+    <!--정보통신관1층-->
+    <string name="string_jungbo1f_1">①통신기계실</string>
+    <string name="string_jungbo1f_2">②대림방송국</string>
+    <string name="string_jungbo1f_3">③영상크리에이티룸</string>
+    <string name="string_jungbo1f_4">④교수연구실1</string>
+    <string name="string_jungbo1f_5">⑤멀티미디어실습실3</string>
+    <string name="string_jungbo1f_6">⑥멀티미티어실습실5</string>
+    <string name="string_jungbo1f_7">⑦방송음향네트워크\n실습실</string>
+    <string name="string_jungbo1f_8">⑧IOT기기\n실무실습실</string>
+    <string name="string_jungbo1f_9">⑨대림방송국 iDCN \nMEDIA Station</string>
+
+    <!--정보통신관2층-->
+    <string name="string_jungbo2f_1">①방송응향기술과\n영상디자인과 관리실</string>
+    <string name="string_jungbo2f_2">②음향영상편집실</string>
+    <string name="string_jungbo2f_3">③창고</string>
+    <string name="string_jungbo2f_4">④멀티미디어실습실1</string>
+    <string name="string_jungbo2f_5">⑤조정실1</string>
+    <string name="string_jungbo2f_6">⑥멀티미디어실습실2</string>
+    <string name="string_jungbo2f_7">⑦교수연구실2</string>
+    <string name="string_jungbo2f_8">⑧교수연구실3</string>
+    <string name="string_jungbo2f_9">⑨교수연구실4</string>
+    <string name="string_jungbo2f_10">⑩교수연구실\n음향연구소</string>
+    <string name="string_jungbo2f_11">⑪음향스튜디오</string>
+    <string name="string_jungbo2f_12">⑫레코딩스튜디오</string>
+
+    <!--정보통신관3층-->
+    <string name="string_jungbo3f_1">①AI시스템과 관리실</string>
+    <string name="string_jungbo3f_2">②교육센터</string>
+    <string name="string_jungbo3f_3">③디지털실험실</string>
+    <string name="string_jungbo3f_4">④창고</string>
+    <string name="string_jungbo3f_5">⑤기초회로실험실</string>
+    <string name="string_jungbo3f_6">⑥교수연구실5</string>
+    <string name="string_jungbo3f_7">⑦교수연구실6</string>
+    <string name="string_jungbo3f_8">⑧교수연구실7</string>
+    <string name="string_jungbo3f_9">⑨교수연구실8</string>
+    <string name="string_jungbo3f_10">⑩교수연구실9</string>
+    <string name="string_jungbo3f_11">⑪교수연구소10</string>
+    <string name="string_jungbo3f_12">⑫IOT창의적\n종합설계실</string>
+    <string name="string_jungbo3f_13">⑬IOT기기\n운용실습실</string>
+
+    <!--정보통신관4층-->
+    <string name="string_jungbo4f_1">①융합전자통신과\n 전자통신과 관리실</string>
+    <string name="string_jungbo4f_2">②HAM</string>
+    <string name="string_jungbo4f_3">③작업실</string>
+    <string name="string_jungbo4f_4">④EDA교육센터</string>
+    <string name="string_jungbo4f_5">⑤집적회로실험실</string>
+    <string name="string_jungbo4f_6">⑥창의융합통신강의실1</string>
+    <string name="string_jungbo4f_7">⑦안테나실험실</string>
+    <string name="string_jungbo4f_8">⑧교수연구실11</string>
+    <string name="string_jungbo4f_9">⑨교수연구실12</string>
+    <string name="string_jungbo4f_10">⑩교수연구실13</string>
+    <string name="string_jungbo4f_11">⑪통신응용실험실</string>
+</resources>

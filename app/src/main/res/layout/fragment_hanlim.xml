@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.hanlim.HanlimFragment">
+
+    <ImageView
+        android:id="@+id/image_hanlimbuilding"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/hanlim"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.434"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/text_hanlim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.289" />
+
+    <ImageView
+        android:id="@+id/image_carline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/todo"
+        android:scaleType="fitXY"
+        android:src="@drawable/carline"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_hanlim"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/hanlim1f"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/hanlim_1f"
+        android:src="@drawable/hanlim1f"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintTop_toBottomOf="@id/image_carline"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/hanlim2f"
+        android:layout_width="334dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="96dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/hanlim_2f"
+        android:src="@drawable/hanlim2f"
+        app:layout_constraintTop_toBottomOf="@id/image_carline"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ImageButton
+        android:id="@+id/hanlim3f"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="184dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/hanlim_3f"
+        android:src="@drawable/hanlim3f"
+        app:layout_constraintTop_toBottomOf="@id/image_carline"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ImageButton
+        android:id="@+id/hanlim4f"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="268dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/hanlim_4f"
+        android:src="@drawable/hanlim4f"
+        app:layout_constraintTop_toBottomOf="@id/image_carline"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
