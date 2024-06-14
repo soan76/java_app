@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.jungbo.Jungbo2fFragment">
@@ -31,6 +32,17 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="0dp"
         tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/overlay_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_maker"
+        app:layout_constraintTop_toTopOf="@id/jungbo3f"
+        app:layout_constraintStart_toStartOf="@id/jungbo3f"
+        android:visibility="gone"
+        tools:ignore="MissingConstraints,NotSibling"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:textColor="@color/black"
@@ -181,22 +193,22 @@
     <TextView
         android:id="@+id/text_jungbo3f13"
         android:layout_width="wrap_content"
-        android:layout_height="42dp"
+        android:layout_height="57dp"
         android:layout_marginTop="310dp"
+        android:clickable="true"
+        android:focusable="true"
         android:gravity="center"
         android:text="@string/string_jungbo3f_13"
         android:textColor="@color/black"
         android:textSize="19sp"
-        app:layout_constraintTop_toBottomOf="@id/image_jungbo3f"
         app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_1"
-        tools:ignore="MissingConstraints"
-        android:clickable="true"
-        android:focusable="true" />
+        app:layout_constraintTop_toBottomOf="@id/image_jungbo3f"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/text_jungbo3f12"
         android:layout_width="wrap_content"
-        android:layout_height="36dp"
+        android:layout_height="58dp"
         android:layout_marginTop="255dp"
         android:gravity="center"
         android:text="@string/string_jungbo3f_12"
@@ -204,8 +216,7 @@
         android:textSize="19sp"
         app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_2"
         app:layout_constraintTop_toBottomOf="@id/image_jungbo3f"
-        tools:ignore="MissingConstraints"
-        />
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/text_jungbo3f4"

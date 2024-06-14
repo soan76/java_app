@@ -33,6 +33,17 @@
         tools:layout_editor_absoluteX="0dp"
         tools:ignore="MissingConstraints" />
 
+    <ImageView
+        android:id="@+id/overlay_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_maker"
+        app:layout_constraintTop_toTopOf="@id/jungbo2f"
+        app:layout_constraintStart_toStartOf="@id/jungbo2f"
+        android:visibility="gone"
+        tools:ignore="MissingConstraints,NotSibling"
+        android:contentDescription="@string/todo" />
+
     <TextView
         android:id="@+id/text_jungbo2f1"
         android:layout_width="wrap_content"
@@ -137,7 +148,7 @@
     <TextView
         android:id="@+id/text_jungbo2f10"
         android:layout_width="wrap_content"
-        android:layout_height="37dp"
+        android:layout_height="49dp"
         android:layout_marginTop="235dp"
         android:gravity="center"
         android:text="@string/string_jungbo2f_10"
@@ -145,8 +156,7 @@
         android:textSize="17sp"
         app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_2"
         app:layout_constraintTop_toBottomOf="@id/image_jungbo2f"
-        tools:ignore="MissingConstraints"
-        />
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/text_jungbo2f11"

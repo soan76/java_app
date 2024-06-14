@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.hongji.Hongji5fFragment">
@@ -31,6 +32,17 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="0dp"
         tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/overlay_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_maker"
+        app:layout_constraintTop_toTopOf="@id/hongji5f"
+        app:layout_constraintStart_toStartOf="@id/hongji5f"
+        android:visibility="gone"
+        tools:ignore="MissingConstraints,NotSibling"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/text_hongji5f1"
@@ -121,7 +133,7 @@
         android:focusable="true" />
 
     <TextView
-        android:id="@+id/text_hongji5f29"
+        android:id="@+id/text_hongji5f19"
         android:layout_width="wrap_content"
         android:layout_height="35dp"
         android:layout_marginTop="405dp"

@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="ui.hanlim.Hanlim4fFragment">
@@ -31,6 +32,17 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="36dp" />
+
+    <ImageView
+        android:id="@+id/overlay_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_maker"
+        app:layout_constraintTop_toTopOf="@id/hanlim3f"
+        app:layout_constraintStart_toStartOf="@id/hanlim3f"
+        android:visibility="gone"
+        tools:ignore="MissingConstraints,NotSibling"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/text_hanlim4f1"

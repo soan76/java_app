@@ -82,6 +82,7 @@
     <string name="string_hongji3f_12">⑫교수연구실4</string>
     <string name="string_hongji3f_13">⑬교수연구실5</string>
     <string name="string_hongji3f_14">⑭교수연구실6</string>
+    <string name="string_hongji3f_15">⑭멀티미디어실습실</string>
 
     <!--홍지관4층-->
     <string name="string_hongji4f_1">①항공서비스과 사무\n관리실</string>
@@ -184,7 +185,7 @@
     <string name="string_jungbo1f_5">⑤멀티미디어실습실3</string>
     <string name="string_jungbo1f_6">⑥멀티미티어실습실5</string>
     <string name="string_jungbo1f_7">⑦방송음향네트워크\n실습실</string>
-    <string name="string_jungbo1f_8">⑧IOT기기\n실무실습실</string>
+    <string name="string_jungbo1f_8">⑧IOT기기실무\n실습실</string>
     <string name="string_jungbo1f_9">⑨대림방송국 iDCN \nMEDIA Station</string>
 
     <!--정보통신관2층-->
@@ -222,7 +223,7 @@
     <string name="string_jungbo4f_3">③작업실</string>
     <string name="string_jungbo4f_4">④EDA교육센터</string>
     <string name="string_jungbo4f_5">⑤집적회로실험실</string>
-    <string name="string_jungbo4f_6">⑥창의융합통신강의실1</string>
+    <string name="string_jungbo4f_6">⑥창의융합통신\n강의실1,2</string>
     <string name="string_jungbo4f_7">⑦안테나실험실</string>
     <string name="string_jungbo4f_8">⑧교수연구실11</string>
     <string name="string_jungbo4f_9">⑨교수연구실12</string>

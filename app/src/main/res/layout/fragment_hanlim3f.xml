@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="ui.hanlim.Hanlim3fFragment">
@@ -39,8 +40,19 @@
         tools:layout_editor_absoluteX="36dp"
         tools:ignore="MissingConstraints" />
 
+    <ImageView
+        android:id="@+id/overlay_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_maker"
+        app:layout_constraintTop_toTopOf="@id/hanlim4f"
+        app:layout_constraintStart_toStartOf="@id/hanlim4f"
+        android:visibility="gone"
+        tools:ignore="MissingConstraints,NotSibling"
+        android:contentDescription="@string/todo" />
+
     <TextView
-        android:id="@+id/text_hanlim3f2"
+        android:id="@+id/text_hanlim3f1"
         android:layout_width="wrap_content"
         android:layout_height="33dp"
         android:layout_marginTop="65dp"
@@ -54,7 +66,7 @@
         android:focusable="true" />
 
     <TextView
-        android:id="@+id/text_hongji3f3"
+        android:id="@+id/text_hanlim3f2"
         android:layout_width="wrap_content"
         android:layout_height="33dp"
         android:layout_marginTop="65dp"
@@ -67,7 +79,7 @@
         />
 
     <TextView
-        android:id="@+id/text_hanlim3f4"
+        android:id="@+id/text_hanlim3f3"
         android:layout_width="wrap_content"
         android:layout_height="33dp"
         android:layout_marginTop="65dp"

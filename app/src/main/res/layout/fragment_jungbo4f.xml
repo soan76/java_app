@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.jungbo.Jungbo4fFragment">
@@ -31,6 +32,17 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="0dp"
         tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/overlay_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_maker"
+        app:layout_constraintTop_toTopOf="@id/jungbo3f"
+        app:layout_constraintStart_toStartOf="@id/jungbo3f"
+        android:visibility="gone"
+        tools:ignore="MissingConstraints,NotSibling"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/text_jungbo4f1"
@@ -93,7 +105,7 @@
     <TextView
         android:id="@+id/text_jungbo4f6"
         android:layout_width="wrap_content"
-        android:layout_height="40dp"
+        android:layout_height="54dp"
         android:layout_marginTop="140dp"
         android:gravity="center"
         android:text="@string/string_jungbo4f_6"
@@ -101,8 +113,7 @@
         android:textSize="19sp"
         app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_2"
         app:layout_constraintTop_toBottomOf="@id/image_jungbo4f"
-        tools:ignore="MissingConstraints"
-        />
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/text_jungbo4f5"
@@ -123,18 +134,17 @@
         android:id="@+id/text_jungbo4f8"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
-        android:layout_marginTop="190dp"
+        android:layout_marginTop="200dp"
         android:gravity="center"
         android:text="@string/string_jungbo4f_8"
         android:textColor="@color/black"
         android:textSize="19sp"
         app:layout_constraintStart_toStartOf="@id/guideline_start_car_1f_2"
         app:layout_constraintTop_toBottomOf="@id/image_jungbo4f"
-        tools:ignore="MissingConstraints"
-        />
+        tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/text_hanlim4f9"
+        android:id="@+id/text_jungbo4f9"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
         android:layout_marginTop="250dp"
@@ -149,7 +159,7 @@
         android:focusable="true" />
 
     <TextView
-        android:id="@+id/text_hanlim4f10"
+        android:id="@+id/text_jungbo4f10"
         android:layout_width="wrap_content"
         android:layout_height="39dp"
         android:layout_marginTop="250dp"
@@ -163,7 +173,7 @@
         />
 
     <TextView
-        android:id="@+id/text_hanlim4f11"
+        android:id="@+id/text_jungbo4f11"
         android:layout_width="wrap_content"
         android:layout_height="45dp"
         android:layout_marginTop="310dp"
